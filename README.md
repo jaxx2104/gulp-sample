@@ -1,4 +1,4 @@
-# gulp-sample
+# gulp-sample [![Build Status](https://travis-ci.org/jaxx2104/gulp-sample.svg?branch=master)](https://travis-ci.org/jaxx2104/gulp-sample)
 frontend sample webserver
 
 ## Description

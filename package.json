@@ -4,10 +4,10 @@
   "description": "frontend sample webserver",
   "main": "n/a",
   "scripts": {
-    "install": "npm install -g gulp && npm install",
+    "install": "npm install -g gulp",
     "develop": "gulp",
     "deploy": "gulp doc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"no test specified\" && exit 0"
   },
   "keywords": [
     "gulp",
