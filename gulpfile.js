@@ -74,7 +74,7 @@ gulp.task('scss', function () {
         .pipe(sourcemaps.init())
         .pipe(clean({compatibility: 'ie8'}))
         .pipe(sourcemaps.write())
-        .pipe(chmod(755))
+        .pipe(chmod(0755))
         .pipe(gulp.dest(paths.css));
 });
 
@@ -97,7 +97,7 @@ gulp.task('js', watchify(function(watchify) {
     }))
     .pipe(streamify(uglify()))
     .pipe(streamify(sourcemaps.write()))
-    .pipe(chmod(755))
+    .pipe(chmod(0755))
     .pipe(gulp.dest(paths.js))
 }))
 

@@ -1,48 +1,39 @@
-# node-sample
-
-Node.js sample webserver
+# gulp-sample
+frontend sample webserver
 
 ## Description
-
 This webserver live build for Sass and ES6.
 
 ## Requirement
-
 - Node.js
-- npm
-- gulp
 
 ## Installation
 ```shell
-$ git clone git@github.com:jaxx2104/node-sample.git
+$ git clone git@github.com:jaxx2104/node-sample.gi
+$ npm run install
 ```
-install node.js and npm.
+## Usage
+live build start.
 ```shell
-$ sudo yum install nodejs npm –enablerepo=epel
-$ sudo yum install gcc gcc-c++
+$ gulp
+```
+
+## Update
+update node.js
+```shell
 $ sudo npm install -g n
-```
-update node.js 
-```shell
-$ n –stable
-$ sudo n –stable
-$ sudo n –latest
 $ sudo n latest
 ```
-update npm
+
+update npm global
 ```shell
 $ sudo npm update -g npm
 $ sudo npm update -g
 $ sudo npm outdated -g
 ```
 
-install gulp
+update npm local
 ```shell
-$ sudo npm install -g gulp
-```
-
-## Usage
-webserver live build start.
-```shell
-$ gulp
+$ sudo npm update
+$ sudo npm outdated
 ```
